@@ -1,0 +1,59 @@
+Privacy Policy
+Last updated: 7 August 2026
+
+The short version
+App does not have accounts, does not show ads, and does not contain any analytics or tracking SDKs. Your voice is transcribed entirely on your device and is never uploaded anywhere. The only data that leaves your device is what is needed to sell and restore a subscription.
+
+Who this policy covers
+This policy describes how ("we") handles information in the App iOS application. It does not cover the App Store itself, which is operated by Apple under Apple's own privacy policy.
+
+No account, no registration
+The app has no sign-up, no login and no user profile. We never ask for your name, email address, phone number or any pilot credentials, and we have no way to identify you personally.
+
+Microphone and speech recognition
+The app listens to your radio readback so it can check it against the expected clearance. Two things are worth stating precisely.
+
+Audio is processed on your device. Speech recognition uses Apple's Speech framework in on-device mode, which the app requests explicitly. Your audio is not sent to Apple's servers, not sent to us, and not sent to anyone else. If a device or language cannot perform recognition on-device, the attempt fails — the app does not quietly fall back to network recognition.
+
+The microphone runs while a practice screen is open, not only while you hold the transmit button. This is a technical necessity: starting the audio engine on each press cost about a second and a half and cut off the beginning of every readback. While you are not transmitting, roughly one second of audio is kept in memory in a rolling buffer and is continuously overwritten. The moment you release the button, the buffer is discarded.
+
+Nothing is recorded. Audio is never written to a file, never leaves your device and is never retained after the attempt. The transcript of what you said is shown to you on screen, held in memory for that attempt only, and is gone when you move to the next exchange or close the app.
+
+Content you create
+Phrases you save in the phonetic translator are stored in a file inside the app's own storage on your device. They stay on your device, are not transmitted anywhere, are included in your device backup if you have backups enabled, and are deleted when you delete the app.
+
+The app also stores your chosen callsign and audio settings locally. Same rules apply.
+
+Subscriptions and payments
+Subscriptions are sold by Apple. We never see your card details, billing address or Apple ID — Apple processes the payment and only tells us whether a subscription is active.
+
+To manage subscriptions and to restore purchases across your devices, we use RevenueCat, Inc. When you open the purchase screen, make a purchase or tap "Restore Purchases", RevenueCat receives:
+
+an anonymous identifier that RevenueCat generates for this installation — it is not linked to your name, email or Apple ID;
+the purchase and receipt information Apple provides for the transaction (which product, when it started, when it renews or expires);
+basic technical details such as device model, operating system version, app version and store country.
+RevenueCat processes this data in the United States as our service provider. Their privacy policy: https://www.revenuecat.com/privacy
+
+We do not enable RevenueCat's optional advertising-attribution features, so no advertising identifier (IDFA) is collected and no App Tracking Transparency prompt is shown.
+
+What we do not do
+We show no advertising, on any tier, ever.
+We use no analytics, attribution or crash-reporting SDKs.
+We do not track you across other apps or websites.
+We do not collect location data.
+We do not sell or share personal information, and we do not use your data to build advertising profiles.
+Practice material
+Scenarios in the app are training material and are provided for practice only. They are not aeronautical data and must never be used for actual flight or navigation.
+
+Children
+The app is aimed at student and licensed pilots. It is not directed at children under 13, and we do not knowingly collect information from them.
+
+Your rights
+Because we hold no account and no personal identifiers, we usually cannot locate any data about a specific person — there is nothing to look up. The practical route is direct: deleting the app removes everything stored on your device. To ask about purchase records held by RevenueCat, or to exercise rights under the GDPR, UK GDPR or the CCPA, write to us at [support@example.com] and we will act on your request. We do not sell personal information, so there is nothing to opt out of.
+
+Changes
+If we change how the app handles data, we will update this page and the date at the top. Material changes will be described here rather than made silently.
+
+Contact
+udevwork@gmail.com
+
