@@ -1,0 +1,48 @@
+# Privacy Policy
+
+**Effective date: August 19, 2026**
+
+This policy describes how NGR, a PlayStation and PSP emulator for iPhone (the "App"), handles your data. The short version: we do not collect personal data, we run no analytics, and we show no ads.
+
+## Data stored on your device only
+
+The following never leaves your device and is never accessible to us:
+
+- Game disc images you import;
+- Memory card saves, save states, resume points, and cheat codes;
+- Screenshots the App takes to use as game covers, and downloaded artwork;
+- App settings and controller bindings.
+
+The App can read only the files you explicitly pick in the system file picker or open with the App from another app. Deleting the App deletes all of this data.
+
+## Purchases (RevenueCat)
+
+Subscriptions are processed by Apple and managed through **RevenueCat**, a subscription infrastructure provider. RevenueCat receives an anonymous, randomly generated identifier and your purchase receipt data in order to validate and manage your subscription. This identifier is not linked to your name, email, or any other personal information — the App has no accounts and never asks who you are. See the [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy).
+
+Payment details (cards, Apple ID) are handled entirely by Apple; the App never sees them.
+
+## Game artwork
+
+To download box art and library banners, the App sends the **title of a game** (derived from the file name you imported) and its console type (PS1 or PSP) to our artwork server (`emulator.rezka42.com`). The server looks the image up in public game-artwork databases and returns it. If our server is unreachable, the App may contact [SteamGridDB](https://www.steamgriddb.com) directly as a fallback.
+
+No personal information or device identifiers are attached to these requests. As with any internet request, your IP address is visible to the server that answers it; we do not use it to identify or track you. Apart from the subscription check described above, the App makes no network requests until you import a game.
+
+## What we do not do
+
+- No analytics or telemetry;
+- No advertising or ad identifiers;
+- No tracking across apps or websites;
+- No accounts, emails, or personal profiles;
+- No access to your contacts, location, camera, microphone, or photos.
+
+## Children
+
+The App does not knowingly collect any data from anyone, including children.
+
+## Changes
+
+If this policy changes, the updated version will be published at this URL with a new effective date.
+
+## Contact
+
+Questions: **udevwork@gmail.com**
