@@ -1,0 +1,79 @@
+# Privacy Policy
+
+**[App Name]**
+Last updated: [Date]
+
+This Privacy Policy explains what information [App Name] ("the app", "we", "us") handles, why, and what choices you have. The app is developed by [Developer Name].
+
+## The short version
+
+- There are no accounts in the app, and we do not ask for your name, email or phone number.
+- Your books, reading progress, notebook and chat history are stored on your device.
+- When you use the AI assistant, the text needed to answer your question is sent to our AI provider to generate the answer.
+- Subscriptions are processed by Apple. We use RevenueCat to check whether your subscription is active.
+- We do not sell your data, show ads or track you across other apps and websites.
+
+## Information stored on your device
+
+The following stays on your device and is not sent to us:
+
+- the books you import;
+- your reading position, progress and reading settings;
+- your notebook: quotes, notes and comments;
+- your conversations with the assistant.
+
+This data may be included in your device backups (iCloud or computer backups), depending on how you set up your device. Apple handles those backups under its own privacy policy.
+
+## The AI assistant
+
+The assistant is only available with an active subscription. When you ask it a question, the app sends our AI provider what it needs to answer, which may include:
+
+- your question and any passage you selected;
+- text from the book around your current place, and parts of the book the assistant looks up to answer;
+- the book's title, author and table of contents;
+- the contents of your notebook for this book;
+- earlier messages from the same conversation, and the assistant settings you chose for the book.
+
+This data is sent only when you use the assistant. It is used only to generate the answer and is not linked to your identity by us.
+
+We currently use **DeepSeek** as our AI provider. Your requests are processed on its servers, which may be located outside your country, including in the People's Republic of China. DeepSeek handles this data under its own privacy policy: https://www.deepseek.com/privacy
+
+Please do not include sensitive personal information in your questions or in text you send to the assistant.
+
+AI-generated answers may be inaccurate. Check important information against the book and other reliable sources.
+
+## Subscriptions and purchases
+
+Payments are processed by Apple through the App Store. We never receive your payment card details.
+
+We use **RevenueCat** to manage subscriptions. RevenueCat receives an anonymous app user identifier, your purchase and subscription history, and basic technical information (device model, operating system version, app version, country or region, IP address) so it can confirm your subscription and let you restore purchases. RevenueCat's privacy policy: https://www.revenuecat.com/privacy
+
+## What we do not do
+
+- We do not sell or rent your personal data.
+- We do not use advertising or advertising identifiers.
+- We do not track you across apps or websites owned by other companies.
+- We do not collect analytics about how you use the app.
+
+## Data retention and deletion
+
+- Books, notes and chat history stay on your device until you delete them. Deleting a book in the app also deletes its conversation. Deleting the app removes all of this data from the device.
+- You can clear a conversation at any time: long-press the header of the chat.
+- Data sent to the AI provider and to RevenueCat is kept under their policies. To ask about data related to your purchases, contact us at the address below.
+
+## Children
+
+The app is not directed at children under 13, and we do not knowingly collect personal information from them. If you believe a child has provided personal information through the app, please contact us and we will help remove it.
+
+## Your rights
+
+Depending on where you live, you may have the right to access, correct, delete or restrict the processing of your personal data, and to object to that processing. Since most of your data never leaves your device, you control it directly in the app. For anything else, contact us and we will reply within 30 days.
+
+## Changes to this policy
+
+We may update this policy when the app changes. We will change the "Last updated" date above, and for important changes we will let you know in the app.
+
+## Contact
+
+[Developer Name]
+Email: [contact email]
