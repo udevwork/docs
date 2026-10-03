@@ -1,44 +1,69 @@
 # Privacy Policy
 
 **Bookbench**
-Last updated: 19.09.2026
+Last updated: 3 October 2026
 
-This Privacy Policy explains what information [App Name] ("the app", "we", "us") handles, why, and what choices you have. The app is developed by [Developer Name].
+This Privacy Policy explains what information Bookbench ("the app", "we", "us") handles, why, and what choices you have. The app is developed by Denys Kotelnykov, who is responsible for the data described here.
 
 ## The short version
 
-- There are no accounts in the app, and we do not ask for your name, email or phone number.
-- Your books, reading progress, notebook and chat history are stored on your device.
-- When you use the AI assistant, the text needed to answer your question is sent to our AI provider to generate the answer.
+- There are no accounts in the app. We do not ask for your name, email or phone number.
+- Your books, notebook, marks and conversations are stored on your device.
+- The AI assistant works only after you allow it. To answer, it sends passages of the book, your questions, your reading goal and your notebook through our server to DeepSeek, whose servers are in China. No account, name or email goes with them.
 - Subscriptions are processed by Apple. We use RevenueCat to check whether your subscription is active.
-- We do not sell your data, show ads or track you across other apps and websites.
+- We do not show ads, do not track you across other apps and websites, and do not sell your data.
 
 ## Information stored on your device
 
 The following stays on your device and is not sent to us:
 
-- the books you import;
+- the books you import (EPUB and FB2);
 - your reading position, progress and reading settings;
-- your notebook: quotes, notes and comments;
+- your notebook: quotes, notes, comments and bookmarks;
+- the marks the assistant places in your books;
 - your conversations with the assistant.
 
 This data may be included in your device backups (iCloud or computer backups), depending on how you set up your device. Apple handles those backups under its own privacy policy.
 
+## Your reader ID
+
+The app creates a random ID of twelve letters and digits, for example K7Q2-M9XD-3FAB. It contains no information about you. The ID is kept in your keychain and synced through iCloud Keychain, so it stays the same on your other devices and after you reinstall the app. This way you do not lose your subscription or access we have granted you.
+
+The ID is used for two things only:
+
+- our server uses it to apply usage limits to the assistant;
+- RevenueCat uses it to keep track of your subscription.
+
+The subscription screen shows your ID so you can copy it. If you send it to us, for example to get free access, we use it only for that.
+
 ## The AI assistant
 
-The assistant is only available with an active subscription. When you ask it a question, the app sends our AI provider what it needs to answer, which may include:
+Before your first question, the app explains what will be sent and asks for your permission. Nothing is sent until you tap Allow. You can withdraw your permission at any time in the app's menu; the assistant and its hints are then turned off.
+
+New users get 3 free answers. After that, the assistant requires a subscription.
+
+When you use the assistant or its hints, the app sends what is needed to answer, which may include:
 
 - your question and any passage you selected;
 - text from the book around your current place, and parts of the book the assistant looks up to answer;
 - the book's title, author and table of contents;
+- your reading goal and the assistant settings you chose for the book;
 - the contents of your notebook for this book;
-- earlier messages from the same conversation, and the assistant settings you chose for the book.
+- earlier messages from the same conversation.
 
-This data is sent only when you use the assistant. It is used only to generate the answer and is not linked to your identity by us.
+No account, name or email is sent with this data.
 
-We currently use **DeepSeek** as our AI provider. Your requests are processed on its servers, which may be located outside your country, including in the People's Republic of China. DeepSeek handles this data under its own privacy policy: https://www.deepseek.com/privacy
+### Our server
 
-Please do not include sensitive personal information in your questions or in text you send to the assistant.
+Requests from the app go to our server first. The server checks that a request comes from the app, applies usage limits by reader ID and IP address, and passes the request on to DeepSeek. It does not store the text of your questions, books or notes. Your reader ID and IP address stay on our server and are not passed to DeepSeek.
+
+To keep the service secure and prevent abuse, the server keeps technical logs for up to 14 days: the time of each request, the IP address, the reader ID, the app and system version, the result, how long it took and how many tokens it used. These logs never contain the text of your questions, books or notes.
+
+### DeepSeek
+
+We use DeepSeek as our AI provider. It receives requests from our server, without your reader ID or IP address, and processes them on servers in the People's Republic of China. DeepSeek handles this data under its own privacy policy: https://www.deepseek.com/privacy
+
+Please do not include sensitive personal information in your questions or in your notes.
 
 AI-generated answers may be inaccurate. Check important information against the book and other reliable sources.
 
@@ -46,20 +71,34 @@ AI-generated answers may be inaccurate. Check important information against the 
 
 Payments are processed by Apple through the App Store. We never receive your payment card details.
 
-We use **RevenueCat** to manage subscriptions. RevenueCat receives an anonymous app user identifier, your purchase and subscription history, and basic technical information (device model, operating system version, app version, country or region, IP address) so it can confirm your subscription and let you restore purchases. RevenueCat's privacy policy: https://www.revenuecat.com/privacy
+We use RevenueCat to manage subscriptions. RevenueCat receives your reader ID, your purchase and subscription history, and basic technical information (device model, operating system version, app version, country or region, IP address) so it can confirm your subscription and let you restore purchases. RevenueCat's privacy policy: https://www.revenuecat.com/privacy
 
 ## What we do not do
 
 - We do not sell or rent your personal data.
 - We do not use advertising or advertising identifiers.
 - We do not track you across apps or websites owned by other companies.
-- We do not collect analytics about how you use the app.
+- We do not use analytics tools in the app. If you chose to share analytics with app developers in your device settings, Apple may provide us with crash reports and aggregated usage statistics. You can turn this off in Settings › Privacy & Security › Analytics & Improvements.
+
+## Legal bases
+
+If you are in the European Economic Area, the United Kingdom or another region with similar laws, we rely on:
+
+- your consent, for sending data to our AI provider. You give it by tapping Allow and can withdraw it in the app's menu at any time;
+- the performance of our contract with you, for providing the assistant, its usage limits and subscriptions;
+- our legitimate interest in keeping the service secure, for technical logs.
+
+## International transfers
+
+DeepSeek processes requests in the People's Republic of China, which the European Commission has not recognised as providing an adequate level of data protection. We send data there only with your explicit consent, given in the app before your first question. Our server and RevenueCat may also process data outside your country.
 
 ## Data retention and deletion
 
-- Books, notes and chat history stay on your device until you delete them. Deleting a book in the app also deletes its conversation. Deleting the app removes all of this data from the device.
+- Books, notes, marks and conversations stay on your device until you delete them. Deleting a book in the app also deletes its conversation. Deleting the app removes all of this data from the device.
 - You can clear a conversation at any time: long-press the header of the chat.
-- Data sent to the AI provider and to RevenueCat is kept under their policies. To ask about data related to your purchases, contact us at the address below.
+- Our server does not store your questions, books or notes. Its technical logs are deleted after 14 days.
+- Your reader ID stays in your iCloud Keychain after you delete the app, so that your subscription is not lost.
+- Data sent to DeepSeek and RevenueCat is kept under their policies. To ask about data linked to your reader ID, send the ID to us at the address below.
 
 ## Children
 
@@ -67,7 +106,7 @@ The app is not directed at children under 13, and we do not knowingly collect pe
 
 ## Your rights
 
-Depending on where you live, you may have the right to access, correct, delete or restrict the processing of your personal data, and to object to that processing. Since most of your data never leaves your device, you control it directly in the app. For anything else, contact us and we will reply within 30 days.
+Depending on where you live, you may have the right to access, correct, delete or restrict the processing of your personal data, to object to it, and to withdraw your consent. Most of your data never leaves your device, so you control it directly in the app. For anything else, contact us and we will reply within 30 days.
 
 ## Changes to this policy
 
